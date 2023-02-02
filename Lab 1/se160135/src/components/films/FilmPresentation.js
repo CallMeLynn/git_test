@@ -4,13 +4,13 @@ import './Film.css';
 
 export default function FilmPresentation() {
     return (
-        <div className='container m-1 flex flex-wrap w-auto xs:columns-1 gap-5 lg:columns-2 xl:columns-3'>
+        <div className='container m-1 flex flex-wrap w-auto 2xl:columns-2 gap-5 3xl:columns-3'>
             {Films.map((film) => (
-                <div className='column'>
+                <div className='column p-2 border border-black' key={film.id}>
                     <div className='card'>
-                        <img className='filmImg' src={film.image} alt={film.Title} />
-                        <h3 className='title font-bold text-xl'>{film.Title} ({film.Year})</h3>
-                        <p className='nation'>Country: {film.Nation}</p>
+                        <img className='filmImg xl:min-h-screen' src={film.image} alt={film.Title} />
+                        <h3 className='title font-bold text-2xl mt-4'>{film.Title} ({film.Year})</h3>
+                        <p className='nation mb-2'>Country: {film.Nation}</p>
                     </div>
                 </div>
             ))}

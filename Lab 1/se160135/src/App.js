@@ -1,10 +1,14 @@
 import './App.css';
-import FilmPresentation from './components/Films/FilmPresentation';
+import FilmPresentation from './components/films/FilmPresentation';
+import Footer from './components/footer/Footer';
+import NavBar from './components/navBar/NavBar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-sky-100">
+      <NavBar />
       <FilmPresentation />
+      <Footer />
     </div>
   );
 }
