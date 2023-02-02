@@ -1,5 +1,5 @@
 import './App.css';
-import FilmPresentation from './components/FilmPresentation';
+import FilmPresentation from './components/Films/FilmPresentation';
 
 function App() {
   return (
