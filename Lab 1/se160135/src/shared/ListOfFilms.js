@@ -1,6 +1,6 @@
 
 export const Films = [
-    {id: 1, image: "D:/Assignments/FER201m SangNM/Labs/Lab 1/se160135/src/shared/assets/Shawshank.jpg", Title: "The Shawshank redemption", Year: 1994, Nation: "America"},
+    {id: 1, image: "assets/Shawshank.jpg", Title: "The Shawshank redemption", Year: 1994, Nation: "America"},
     {id: 2, image: "assets/idiots.jpg", Title: "3 Idiots", Year: 2009, Nation: "India"},
     {id: 3, image: "assets/Parasite.jpg", Title: "Parasite", Year: 2019, Nation: "Korea"},
     {id: 4, image: "assets/Titanic.jpg", Title: "Titanic", Year: 1997, Nation: "The United Kingdom"},
