@@ -9,7 +9,7 @@ export default function FilmPresentation() {
                 <div className='column p-2 border border-black' key={film.id}>
                     <div className='card'>
                         <img className='filmImg xl:min-h-screen' src={film.image} alt={film.Title} />
-                        <h3 className='title font-bold text-2xl mt-4'>{film.Title} ({film.Year})</h3>
+                        <h3 className='title font-bold text-2xl mt-4 hover:underline'>{film.Title} ({film.Year})</h3>
                         <p className='nation mb-2'>Country: {film.Nation}</p>
                     </div>
                 </div>
