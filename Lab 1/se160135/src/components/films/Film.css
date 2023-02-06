@@ -1,11 +1,15 @@
 .filmImg {
-    display: inline-block;
-    width: 100%;
+  display: inline-block;
+  width: 100%;
 }
-.column{
-    width: 30%;
-    min-width: 200px;
+.column {
+  width: 30%;
+  min-width: 200px;
 }
-.container{
-    justify-content: center;
+.container {
+  justify-content: center;
+}
+.filmImgDetail {
+  display: inline-block;
+  height: 50%;
 }
