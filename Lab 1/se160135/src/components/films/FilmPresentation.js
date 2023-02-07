@@ -20,14 +20,10 @@ export default function FilmPresentation() {
 
             <div id='detailPopup' className='overlay'>
                 <div className='popup'>
-                    <div className='header'>
-                        <a className='close' href='#'>&times;</a>
-                        <h2 className='uppercase text-4xl text-emerald-400 font-mono font-bold'>{film.Title}</h2>
-                    
-                    </div>
-                    
+                    <a className='close' href='#'>&times;</a>
                     <div className='content'>
                         <img className='filmImgDetail p-1' src={film.image} alt={film.Title} /> <br />
+                        <h2 className='uppercase text-4xl text-emerald-400 font-mono font-bold'>{film.Title}</h2>
                         Release on: {film.Year} <br />
                         Country: {film.Nation}
                     </div>
